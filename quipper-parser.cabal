@@ -17,13 +17,10 @@ library
   hs-source-dirs:      src
   exposed-modules:     Lib
   build-depends:       base >= 4.7 && < 5
-                     , random >= 1.0.1.1
-                     , mtl >= 2.1.2
-                     , primes >= 0.2.1.0
-                     , zlib >= 0.5.4.1
-                     , containers >= 0.5.2.1
-                     , set-monad >= 0.1.0.0
-                     , QuickCheck >= 2.6
+                     --, superdoc
+                     --, directory
+                     , easyrender
+                     --, quipper >= 0.8.2 && < 0.9
   default-language:   Haskell2010
 
 executable quipper-parser-exe
